@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cursos VOLL Pilates</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+	    // Sorteia um número inteiro entre o min e o max
+		function getRandomInt(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min;
+        }
+        
+        //O valor retornado será maior ou igual a min, e menor que max (1, 2, 3, 4, 5, 6, 7, 8)
+		window.location.href = `https://cursosvoll.com.br/${getRandomInt(1,9)}`;
+
+	</script>
+</body>
+</html>

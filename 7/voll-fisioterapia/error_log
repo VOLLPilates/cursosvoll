@@ -1,0 +1,2 @@
+[24-Oct-2021 11:12:56 America/Sao_Paulo] PHP Warning:  file_get_contents(https://api-modelo-negocios.herokuapp.com/modelos/61367c83e66bb200161e5595): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/cursosvollcom/public_html/7/functions.php on line 5
